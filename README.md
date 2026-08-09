@@ -17,7 +17,7 @@
 ### 📷 [家族照片](./photos)
 > 精选老照片，记录岁月痕迹
 
-### 📖 [自传](./[自传](.[自传](https://zhongguohua1940.github.io/zhongguohua-family-site/autobiography.html)))
+### 📖 [自传](https://zhongguohua1940.github.io/zhongguohua-family-site/autobiography.html)
 > 钟国华先生的回忆录
 
 ### 📁 [其他资料](./docs)
