@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>钟国华家族照片</title>
+  <style>
+    body {
+      font-family: "STHeiti", "Microsoft YaHei", sans-serif;
+      background-color: #f5f5dc;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: red;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      color: green;
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto 40px;
+    }
+    .photo img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .caption {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #333;
+    }
+    a.back {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #8B0000;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    a.back:hover {
+      background-color: #a80000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>钟国华家族照片</h1>
+  <div class="subtitle">岁月留痕 · 家族记忆 · 薪火相传</div>
+
+  <div class="gallery">
+    <!-- 自动生成 22 张照片 -->
+    <script>
+      for (let i = 1; i <= 22; i++) {
+        document.write(`
+          <div class="photo">
+            <img src="./pic - ${i}.jpeg" alt="照片 ${i}">
+            <div class="caption">照片 ${i}</div>
+          </div>
+        `);
+      }
+    </script>
+  </div>
+
+  <a class="back" href="./">← 返回首页</a>
+
+</body>
+</html>
